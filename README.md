@@ -1,5 +1,5 @@
 ###简介
-本项目是基于AmazeUI根据观麦内部需求定制而来,具体的请参考<a href="https://github.com/allmobilize/amazeui.git" target="_blank">AmazeUI</a>
+本项目是基于AmazeUI根据公司内部需求定制而来,具体的请参考<a href="https://github.com/allmobilize/amazeui.git" target="_blank">AmazeUI</a>
 
 ## 开发及构建
 
