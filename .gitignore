@@ -38,3 +38,6 @@ docs/examlsples/assets/js/amazeui*.js
 #customize
 tools/tasks/config.json
 dist/customized
+
+css
+
