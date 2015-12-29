@@ -25,7 +25,7 @@
 //@fa-font-path: "../fonts";
 // https://github.com/staticfile/static/issues/11
 @fa-font-path: '//dn-amui.qbox.me/font-awesome/4.5.0/fonts';
-@custom-path:'http://cdn.amazeui.org/amazeui/2.5.0/fonts/';
+//@custom-path:'http://cdn.amazeui.org/amazeui/2.5.0/fonts/';
 @fa-css-prefix: ~"@{ns}icon";
 @fa-version: '4.5.0';
 @fa-border-color: #eee;
@@ -41,12 +41,12 @@
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url('@{custom-path}/fontawesome-webfont.eot?v=@{fa-version}');
-  src: url('@{custom-path}/fontawesome-webfont.eot?#iefix&v=@{fa-version}') format('embedded-opentype'),
-  url('@{custom-path}/fontawesome-webfont.woff2?v=@{fa-version}') format('woff2'),
-  url('@{custom-path}/fontawesome-webfont.woff?v=@{fa-version}') format('woff'),
-  url('@{custom-path}/fontawesome-webfont.ttf?v=@{fa-version}') format('truetype'),
-  url('@{custom-path}/fontawesome-webfont.svg?v=@{fa-version}#fontawesomeregular') format('svg');
+  src: url('@{fa-font-path}/fontawesome-webfont.eot?v=@{fa-version}');
+  src: url('@{fa-font-path}/fontawesome-webfont.eot?#iefix&v=@{fa-version}') format('embedded-opentype'),
+  url('@{fa-font-path}/fontawesome-webfont.woff2?v=@{fa-version}') format('woff2'),
+  url('@{fa-font-path}/fontawesome-webfont.woff?v=@{fa-version}') format('woff'),
+  url('@{fa-font-path}/fontawesome-webfont.ttf?v=@{fa-version}') format('truetype'),
+  url('@{fa-font-path}/fontawesome-webfont.svg?v=@{fa-version}#fontawesomeregular') format('svg');
   //  src: url('@{fa-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
   font-weight: normal;
   font-style: normal;
@@ -460,9 +460,9 @@
 //  content: @fa-var-share-square-o;
 //}
 //
-//.@{fa-css-prefix}-check-square-o:before {
-//  content: @fa-var-check-square-o;
-//}
+.@{fa-css-prefix}-check-square-o:before {
+  content: @fa-var-check-square-o;
+}
 //
 //.@{fa-css-prefix}-arrows:before {
 //  content: @fa-var-arrows;
@@ -764,9 +764,9 @@
   content: @fa-var-phone;
 }
 //
-//.@{fa-css-prefix}-square-o:before {
-//  content: @fa-var-square-o;
-//}
+.@{fa-css-prefix}-square-o:before {
+  content: @fa-var-square-o;
+}
 //
 //.@{fa-css-prefix}-bookmark-o:before {
 //  content: @fa-var-bookmark-o;

@@ -437,7 +437,7 @@ gulp.task('custom:less', function() {
       }
     }))
     .pipe($.autoprefixer({browsers: config.AUTOPREFIXER_BROWSERS}))
-    .pipe($.replace('//dn-amui.qbox.me/font-awesome/4.5.0/', '../'))
+    //.pipe($.replace('//dn-amui.qbox.me/font-awesome/4.5.0/', '../')) //将远程的cdn路径替换为当前工程路径
     .pipe(gulp.dest('./css'))
     .pipe($.size({showFiles: true, title: 'source'}))
     // Disable advanced optimizations - selector & property merging, etc.
